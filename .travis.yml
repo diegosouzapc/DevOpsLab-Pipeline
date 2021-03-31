@@ -1,12 +1,12 @@
 language: node_js
 node_js:
-  - node
+- node
 sudo: false
 script:
-  - npm test
+- npm test
 deploy:
   provider: heroku
   api_key:
-    secure: $HEROKU_KEY
-  app: devops-ultimate
+    secure: p2WvnxpJjik6hpa2WSh3Ugk1KkRdiFvRI/Itp3KIseTsErrwRWIXBiWbvD6noep+VRzaJzFThtBgQgVazdAOJBJiALeNChpViZB83iRw+Am9pU4bHFrATa6ii+Z9gThMg72YgvDCXoYYisRwjbGLqbNaFX4W1BIaw6fGybxQHCpB36oAsp9SSAkwm2AlqaIZOvs2owhSCybf2XY25gsoY+E5VJk8dUB2boFv2g6GlVhl2RaTeHfiEghP6Ab9HpLsLF/QeyXi8d91So4WNMWlF79haC8dVQpkRCJHyW2M09jv3+HD7JUegdXhSMzssE6wOf3jEWNrocCExLEsDin0N447IikcaZ+yn99HGqMoShypx/wrNVHDBdbYDJmZ2LHIhWKW2l1vo+ht78vTzgVhONsWPot431O+ttDDHdMboifK1vrFK2xA9EV7mdtauyj8CGu6TySeaQ2LHGZjM/JYKRldYsR86G6w1IFUk2gE6/KqtFLBk7PraewsZI3r6EAQiBctkIEDazn62q2yYooXEmNcuvE/I726uY/IZmozb7+DvHswWvsXR5jvPHiCFnHso4J3UkXWEXOe2y3MZnAei5iEvpiax3YuBE8EkcMaZ6Tc0pK3lNC2S+6c6ETYTfLEOs4tyOoy72X0C7F9JCy09nWsPvs+akgevWkuzPyoFIQ=
+  app: appsecdidi
   edge: true
