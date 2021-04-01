@@ -5,7 +5,7 @@ describe("Status and content", function () {
   describe("Main page", function () {
     it("content", function (done) {
       request("http://localhost:8888/", function (error, response, body) {
-        var test = "Hello World!!";
+        var test = "Didi Boladão!!";
         expect(test).to.be.a("String");
         done();
       });
